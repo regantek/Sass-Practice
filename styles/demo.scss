@@ -1,0 +1,45 @@
+// import file
+
+@import "reset";
+@import "variables";
+
+$para-fontSize: 15px;
+
+header {
+  background-color: $header-bgColor;
+}
+//nav styling
+
+nav {
+  margin-top: 15px;
+  ul {
+    list-style-type: none;
+    li {
+      display: inline-block;
+      margin: 0 15px;
+      a {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        transition: 0.4s;
+        border-radius: 5px;
+      }
+      a:hover {
+        background: #000;
+      }
+    }
+  }
+}
+
+main {
+  background-color: $main-bgColor;
+}
+
+#about p {
+  font-size: $para-fontSize;
+}
+
+footer {
+  background-color: $footer-bgColor;
+}
